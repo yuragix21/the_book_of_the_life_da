@@ -1,0 +1,15 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    background: none;
+}
+
+

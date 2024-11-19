@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura de la pantalla */
+}
+
+.border {
+    width: 100%; /* Ancho del contenedor */
+    height: 90vh; /* Alto del contenedor */
+    border: 30px solid rgb(223, 55, 223); /* Define el borde */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3); /* Sombra sutil alrededor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco */
+}
+
+.animation-loading {
+    width: 60px;
+    height: 60px;
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    border-top: 6px solid #3498db; /* Color del borde superior */
+    border-radius: 50%; /* Círculo */
+    animation: spin 1.2s linear infinite;
+    position: relative;
+}
+
+.animation-loading::after {
+    content: "SE PACIENTE";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #3498db;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

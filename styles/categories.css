@@ -1,0 +1,79 @@
+.main-page{
+    height: 100vh;
+    /* borrar */
+    background-color: rgb(233, 142, 142); 
+}
+
+/* BAR TOP */
+.bar-top{
+    height: 10vh;
+    background-color: rebeccapurple;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+/* BAR TOP */
+
+
+/* CONTAINER */
+.container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container{
+    width: 50vh;
+    height: 70vh;
+    background-color: green;
+    overflow: auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+
+}
+.categories{
+    width: 50vh;
+    height: 50px;
+    background-color: gold;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center{
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    
+}
+/* CONTAINER */
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 51, 67);
+    height: 10vh;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.content-footer{
+    font-size: 20px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+}
+/* FOOTER    */

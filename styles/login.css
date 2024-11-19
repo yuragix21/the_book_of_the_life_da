@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url('../imgs/background.webp');
+}
+
+.container {
+    justify-content: center;
+    width: 40vh;
+    height: auto;
+    background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    -webkit-box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    opacity: 0.6;
+}
+
+label {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* ajustar opacidad de las letras, solo el container debe tener opacidad */
+}
+
+label:hover {
+    color: gold;
+}
+
+input {
+    height: 20px;
+    -webkit-box-shadow: 1px 7px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 7px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 7px 11px 0px rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    border: none;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate haber 😑</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <label for="user">El nombre de tu bb es?</label>
+        <input type="text" id="user">
+        <label for="password">El dia de nuestra fecha es?</label>
+        <input type="password" id="password">
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    <script>
+        // loguearse
+        function login() {
+            const user = document.getElementById('user').value;
+            const password = document.getElementById('password').value;
+
+            // verificar si las credenciales son validas
+            if(user === 'adrian' && password === '26'){
+                alert('Mas te vale...!!!');
+                window.location.href = 'home.html';
+            }else{
+                alert('No recuerdas? (gatito enojado...)');
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
